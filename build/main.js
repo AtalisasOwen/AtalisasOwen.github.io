@@ -240,10 +240,12 @@ var ContactPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
             selector: 'page-contact',template:/*ion-inline-start:"F:\ionic_music\menulistApp1\src\pages\contact\contact.html"*/'<!--\n  Generated template for the ContactPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons left>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-card>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/marty-avatar.png">\n      </ion-avatar>\n      <h2>Marty McFly</h2>\n      <p>Headmaster</p>\n    </ion-item>\n\n    <ion-card-content>\n      <p>A short introduction.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button color="primary" clear small icon-start>\n          <ion-icon name=\'thumbs-up\'></ion-icon>\n          136 Likes\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button color="primary" clear small icon-start (click)="sendEmail()">\n          <ion-icon name=\'text\'></ion-icon>\n          Email\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <button ion-button color="primary" clear small icon-start disabled>\n          <ion-icon name=\'call\'></ion-icon>\n          Call\n        </button>\n      </ion-col>\n    </ion-row>\n\n  </ion-card>\n\n\n  <ion-card>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/sarah-avatar.png.jpeg">\n      </ion-avatar>\n      <h2>Sarah Connor</h2>\n      <p>Teacher</p>\n    </ion-item>\n\n\n    <ion-card-content>\n      <p>A short introduction.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button color="primary" clear small icon-start>\n          <ion-icon name=\'thumbs-up\'></ion-icon>\n          72 Likes\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button color="primary" clear small icon-start (click)="sendEmail()">\n          <ion-icon name=\'text\'></ion-icon>\n          Email\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <button ion-button color="primary" clear small icon-start disabled>\n          <ion-icon name=\'call\'></ion-icon>\n          Call\n        </button>\n      </ion-col>\n    </ion-row>\n\n  </ion-card>\n\n\n  <ion-card>\n\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/imgs/ian-avatar.png">\n      </ion-avatar>\n      <h2>Dr. Ian Malcolm</h2>\n      <p>Teacher</p>\n    </ion-item>\n    <ion-card-content>\n      <p>A short introduction.</p>\n    </ion-card-content>\n\n    <ion-row>\n      <ion-col>\n        <button ion-button color="primary" clear small icon-start>\n          <ion-icon name=\'thumbs-up\'></ion-icon>\n          46 Likes\n        </button>\n      </ion-col>\n      <ion-col>\n        <button ion-button color="primary" clear small icon-start (click)="sendEmail()">\n          <ion-icon name=\'text\'></ion-icon>\n          Email\n        </button>\n      </ion-col>\n      <ion-col align-self-center text-center>\n        <button ion-button color="primary" clear small icon-start disabled>\n          <ion-icon name=\'call\'></ion-icon>\n          Call\n        </button>\n      </ion-col>\n    </ion-row>\n\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"F:\ionic_music\menulistApp1\src\pages\contact\contact.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_email_composer__["a" /* EmailComposer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_email_composer__["a" /* EmailComposer */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_native_email_composer__["a" /* EmailComposer */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */]])
     ], ContactPage);
     return ContactPage;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=contact.js.map
@@ -880,29 +882,29 @@ var HomePage = /** @class */ (function () {
         this.navCtrl = navCtrl;
         this.cards = [
             {
-                imageUrl: 'assets/imgs/card/nin-live.png',
-                title: 'Nine Inch Nails Live',
-                description: 'The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.'
+                imageUrl: 'assets/imgs/card/01.png',
+                title: 'Juzmusic',
+                description: 'Juzmusic offers several different programs, and these are: Instrumental Lessons, Early Childhood Programmes, Pop Music Programme and Programs for Institutions. The teachings of Dr. Shin’ichi Suzuki are held to a high regard here. Besides this, they are also accredited by ABRSM (Associated Board of Royal School of Music). You can also purchase instruments from them. They currently have three branches.'
             },
             {
-                imageUrl: 'assets/imgs/card/badu-live.png',
-                title: 'Erykah Badu',
-                description: 'American singer-songwriter, record producer, activist, and actress, Badu\'s style is a prime example of neo-soul.'
+                imageUrl: 'assets/imgs/card/02.png',
+                title: 'Aureus Academy',
+                description: 'Aureus Academy wants to make sure that learning music is a fun experience for the little ones and adults alike. Whether you want to sing your heart out, or pick up an instrument, their teachers can guide you through it. You can opt for individual or group lessons here, and they currently have five centres throughout the island.'
             },
             {
-                imageUrl: 'assets/imgs/card/queen-live.png',
-                title: 'Queen',
-                description: 'The British rock band formed in London in 1970, and is considered one of the biggest stadium rock bands in the world.'
+                imageUrl: 'assets/imgs/card/03.png',
+                title: 'Edvox Music School',
+                description: 'Since 2002, Edvox Music School has offered theoretical and practical insights to music, with the support of qualified instructors. Lessons are offered for violin, piano, cello, flute, guitar, saxophone and clarinet. There is also a program called Funtime Doreme, engineered for those aged between 3 ½ to 5 years old, to introduce them to music education in a fun way. There are currently 5 Edvox branches located all over Singapore.'
             },
             {
-                imageUrl: 'assets/imgs/card/bjork-live.jpg',
-                title: 'Björk',
-                description: 'Björk is an Icelandic singer, songwriter and actress.'
+                imageUrl: 'assets/imgs/card/04.png',
+                title: 'Intune Music',
+                description: 'If you feel like your calling in life is to pursue music, then Intune Music would be a great place to hone your talent. They work in collaboration with recording studios and artiste management companies in the music industry, giving students the opportunity to showcase their talents or find employment in the industry. Courses are taught for vocals, song composition, and instruments. There are also classes for children. Their school is located within Pomo Mall.'
             },
             {
-                imageUrl: 'assets/imgs/card/rundmc-live.png',
-                title: 'Run-D.M.C.',
-                description: 'The American hip hop group widely acknowledged as one of the most influential acts in the history of hip hop.'
+                imageUrl: 'assets/imgs/card/05.png',
+                title: 'Lee Wei Song School of Music',
+                description: '20 years of experience makes Lee Wei Song School of Music a known name in music education within Singapore. Their secret to success is happiness – a feeling they want to encourage for all who attend their lessons. Classes include Pop Vocal Signatures, Specialised Classes and Masterclasses focusing on pop keyboard, songwriting, artiste grooming, exam prep, and private workshops, as well as their StaR’us Children Program – to introduce kids to music. They are located at the Pico Creative Centre.'
             },
         ];
     }
@@ -920,11 +922,12 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"F:\ionic_music\menulistApp1\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons left>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>\n      News\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-card *ngFor="let card of cards">\n    <img [src]="card.imageUrl" (click)="cardTapped(card)" />\n    <ion-card-content>\n      <h2 class="card-title">\n        {{card.title}}\n      </h2>\n      <p>\n        {{card.description}}\n      </p>\n    </ion-card-content>\n    <ion-row no-padding>\n      <ion-col>\n        <button ion-button clear small color="danger" icon-left (click)="favorite(card)">\n          <ion-icon name=\'star\'></ion-icon>\n          Favorite\n        </button>\n      </ion-col>\n      <ion-col text-center>\n        <button ion-button clear small color="danger" icon-left (click)="listen(card)">\n          <ion-icon name=\'musical-notes\'></ion-icon>\n          Listen\n        </button>\n      </ion-col>\n      <ion-col text-right>\n        <button ion-button clear small color="danger" icon-left (click)="share(card)">\n          <ion-icon name=\'share-alt\'></ion-icon>\n          Share\n        </button>\n      </ion-col>\n    </ion-row>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"F:\ionic_music\menulistApp1\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"F:\ionic_music\menulistApp1\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons left>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>\n      News\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-card *ngFor="let card of cards">\n    <img [src]="card.imageUrl" (click)="cardTapped(card)" />\n    <ion-card-content>\n      <h2 class="card-title">\n        <b>{{card.title}}</b>\n      </h2>\n      <p>\n        {{card.description}}\n      </p>\n    </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"F:\ionic_music\menulistApp1\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object])
     ], HomePage);
     return HomePage;
+    var _a;
 }());
 
 //# sourceMappingURL=home.js.map
